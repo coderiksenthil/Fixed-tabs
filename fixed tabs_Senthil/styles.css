@@ -45,3 +45,29 @@ body {
   aspect-ratio: 100 / 29;
 }
 */
+
+.container
+  box-sizing: border-box
+
+p
+  text-align: center
+  padding: 4rem
+  color: #ccc
+  
+body 
+  background: #fff
+ 
+.container 
+  max-width: 960px
+  width: 100% //Fall back for browsers that doesn't support calc() function
+  width: calc(100% - 1rem) // Override the width for  browsers that support calc function
+  margin: 50px auto
+  padding: 50px
+  background: #ccc
+  
+.container2 
+  max-width: 960px
+  width: 100%
+  margin: 50px auto
+  padding: 50px
+  background: #ccc  
